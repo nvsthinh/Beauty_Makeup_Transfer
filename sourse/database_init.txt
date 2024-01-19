@@ -1,0 +1,4 @@
+hostname=localhost
+dbname=postgres
+username=postgres
+password=dpl302m
