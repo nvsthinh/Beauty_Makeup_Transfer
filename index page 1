@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makeup Transfer App</title>
+  <style>
+    body {
+      display: flex;
+      margin: 0;
+      height: 100vh;
+    }
+
+    #leftContainer, #rightContainer {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #leftContainer {
+      background-color: #f1f1f1;
+    }
+
+    #rightContainer {
+      background-color: #fff;
+      align-items: center;
+    }
+
+    #headerButtons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #imageDisplay {
+      width: 80%;
+      height: 200px; 
+      background-color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    #makeupImage {
+      width: 375px; 
+      height: 375px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin-bottom: 50px;
+    }
+
+    #navButtons, #footerButtons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    button {
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="leftContainer">
+  <header id="headerButtons">
+    <button id="chooseStyle1">Choose Style</button>
+    <button id="chooseStyle2">Choose Style</button>
+  </header>
+
+  <div id="imageDisplay"></div>
+
+  <nav id="navButtons">
+    <button id="prevButton">&#9668; Prev</button>
+    <button id="nextButton">Next &#9658;</button>
+  </nav>
+</div>
+
+<div id="rightContainer">
+  <div id="makeupImage"></div>
+
+  <footer id="footerButtons">
+    <button id="takePhotoButton">Take a photo</button>
+    <button id="doneButton">Done</button>
+  </footer>
+</div>
+
+<script>
+ 
+  let currentImageIndex = 0; 
+
+  
+  document.getElementById('chooseStyle1').addEventListener('click', function() {
+    
+    console.log('Choose Style 1 button clicked');
+  });
+
+  document.getElementById('chooseStyle2').addEventListener('click', function() {
+    
+    console.log('Choose Style 2 button clicked');
+  });
+
+  
+  document.getElementById('nextButton').addEventListener('click', function() {
+    
+    console.log('Next button clicked');
+    
+    currentImageIndex++;
+    
+  });
+
+  
+  document.getElementById('prevButton').addEventListener('click', function() {
+    
+    console.log('Prev button clicked');
+    
+    currentImageIndex--;
+    
+  });
+
+  
+  document.getElementById('takePhotoButton').addEventListener('click', function() {
+    
+    console.log('Take a photo button clicked');
+    
+  });
+
+  
+  document.getElementById('doneButton').addEventListener('click', function() {
+    
+    console.log('Done button clicked');
+    
+  });
+</script>
+
+</body>
+</html>
