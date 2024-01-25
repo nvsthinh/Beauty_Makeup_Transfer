@@ -1,4 +1,0 @@
-hostname=localhost
-dbname=makeupStyle
-username=postgres
-password=dpl302m
