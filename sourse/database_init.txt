@@ -1,4 +1,4 @@
 hostname=localhost
-dbname=postgres
+dbname=makeupStyle
 username=postgres
 password=dpl302m
