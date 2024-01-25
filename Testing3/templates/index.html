@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenCV Video Stream</title>
+</head>
+<body>
+    <h1>OpenCV Video Stream</h1>
+    
+    <img id="img-ok" src="{{ url_for('video_feed') }}" width="640" height="480" alt="Video Stream">
+    
+    <button onclick="captureFrame()">Capture Frame</button>
+    
+    <script>
+        function captureFrame() {
+            // var xhr = new XMLHttpRequest();
+            // xhr.open("GET", "/capture_frame", true);
+            // xhr.send();
+            fetch("http://localhost:5000/chup_anh")
+                .then(res => res.json())
+                .then(data => {
+                    let frame = data.frame_path
+                    let imgEl = document.getElementById("img-ok")
+                    imgEl.src = frame.replace(".", "http://localhost:5000")
+                })
+        }
+    </script>
+</body>
+</html>
