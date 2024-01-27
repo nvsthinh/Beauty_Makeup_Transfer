@@ -23,7 +23,7 @@ class DatabaseManager:
         except Exception as e:
             print(f"Failed to connect to the database. Error: {e}")
 
-    def execute_query(self, query, params=None):
+    def execute_query(self, query, params=None, fetch_results=True):
         try:
             with self.conn.cursor() as cursor:
                 if params:
@@ -31,14 +31,28 @@ class DatabaseManager:
                 else:
                     cursor.execute(query)
 
-                results = cursor.fetchall()
-                return results
+                if fetch_results:
+                    results = cursor.fetchall()
+                    return results
+                else:
+                    return None
         except Exception as e:
             print(f"Something went wrong. Error: {e}")
             return None
         finally:
             cursor.close()
 
+    def save_record(self, ip_address, org_img, style_id, result):
+        try:
+            query = "INSERT INTO UserRecord (ipaddress, orgimage, styleid, result) VALUES (%s, %s, %s, %s)"
+            params = (ip_address, org_img, style_id, result)
+            self.execute_query(query, params,fetch_results=False)
+            self.conn.commit()
+            print(f"Successfully inserted user record")
+
+        except Exception as e:
+            print(f"Failed to insert user record. Error: {e}")
+            self.conn.rollback()
     def show_all_tables(self):
         query = "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'"
         return self.execute_query(query)
@@ -66,3 +80,4 @@ if __name__ == '__main__':
     print(group_style)
     get_meta = db.get_metadata(1)
     print(get_meta)
+    insert = db.save_record('112.4.553','thereispath',1,"None")
