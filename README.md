@@ -28,6 +28,10 @@ app.py
 ## Pipeline
 <img src="pipeline.png" alt="Makeup Style Transfer PipeLine" width="800" height="600">
 
+
+## Database Design Diagram
+<img src="Database_Design_Diagram.png" alt="Database Design Diagram" width="800" height="600">
+
 ## Contributors 
 - Nguyen Van Sy Thinh - SE173018
 - Le Quoc Viet - SE173577
