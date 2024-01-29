@@ -25,6 +25,8 @@ Makeup_Style_Transfer
    |- info.txt
 model.py
 app.py
+```
+![Makeup Style Transfer Pipeline](pipeline.png)
 
 ## Contributors
 * Nguyen Van Sy Thinh - SE173018
