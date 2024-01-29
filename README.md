@@ -1,7 +1,5 @@
 # Makeup Style Transfer
 
-![Makeup Style Transfer](images/cover_image.jpg)
-
 ## Overview
 
 Makeup Style Transfer is a project that allows users to experiment with different makeup styles using a web application. Users can upload their makeup-free photos and virtually apply various makeup styles to see how they would look. The system uses AI-based filters for makeup transformation and suggests related beauty products based on the chosen makeup style.
@@ -26,11 +24,13 @@ Makeup_Style_Transfer
 model.py
 app.py
 ```
-![Makeup Style Transfer Pipeline](pipeline.png)
 
-## Contributors
-* Nguyen Van Sy Thinh - SE173018
-* Le Quoc Viet - SE173577
-* Ta Quoc Trung - SE172391
-* Truong Tuan Phi - SE161036
-* Nguyen Khanh Duy - SE172694
+## Pipeline
+<img src="pipeline.png" alt="Makeup Style Transfer PipeLine" width="800" height="600">
+
+## Contributors 
+- Nguyen Van Sy Thinh - SE173018
+- Le Quoc Viet - SE173577
+- Ta Quoc Trung - SE172391
+- Truong Tuan Phi - SE161036
+- Nguyen Khanh Duy - SE172694
