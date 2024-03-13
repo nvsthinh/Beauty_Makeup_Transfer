@@ -1,0 +1,5 @@
+hostname=localhost
+dbname=makeupStyle
+port=1433
+username=sa
+password=Dpl302m@
