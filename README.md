@@ -35,13 +35,13 @@ app.py
 <img src="modelArchitecture.png" alt="Makeup Style Transfer PipeLine" width="900" height="500">
 
 ## Data Preprocessing Procedure
-<img src="dataProcessing.png" alt="Makeup Style Transfer PipeLine" width="950" height="600">
+<img src="dataProcessing.png" alt="Makeup Style Transfer PipeLine" width="900" height="650">
 
 ## Database Design Diagram
 <img src="Database_Design_Diagram.png" alt="Database Design Diagram" width="800" height="600">
 
 ## UI-UX
-<img src="product.png" alt="Database Design Diagram" width="350" height="200">
+<img src="product.png" alt="Database Design Diagram" width="300" height="250">
 
 
 ## Contributors 
