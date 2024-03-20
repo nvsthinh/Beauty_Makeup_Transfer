@@ -41,7 +41,7 @@ app.py
 <img src="Database_Design_Diagram.png" alt="Database Design Diagram" width="800" height="600">
 
 ## UI-UX
-<img src="product.png" alt="Database Design Diagram" width="500" height="416">
+<img src="product.png" alt="Database Design Diagram" width="450" height="416">
 
 
 ## Contributors 
