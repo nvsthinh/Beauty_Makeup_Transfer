@@ -11,7 +11,7 @@
 
 3) Go inside fe folder, open terminal and type "npm install" for install required package locally
 
-4) Download folder "model" from our gg drive and overwrite the old "model" with the newly 
+4) Download folder "model" from our gg drive (https://drive.google.com/drive/folders/1xwFzpe_W4DzkQ3KtrCCtaOBBtYHUnyUN) and overwrite the old "model" with the newly 
 download "model" folder
 
 Done
