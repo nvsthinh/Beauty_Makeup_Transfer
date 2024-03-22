@@ -65,6 +65,17 @@ requirements.txt
 <img src="product.png" alt="Database Design Diagram" width="450" height="416">
 
 ## Installation Guide
+Please open the installation.txt for detail
+
+## How to run the app?
+we assume that you already satisfied the requirement in Installation Guide
+
+1. Open terminal in the root directory, type "python app.py" (remember to choose the right environment)
+
+2. After that, go to the "fe" folder, open the terminal and type "npx expo start", this will then show you a QR code for connecting with your phone
+
+3. Download Expo app on smartphone, connect the phone to the same wifi as 
+the device that is running the terminals, then scan QR on the screen of that devices to open the app.
 
 ## Contributors 
 - Nguyen Van Sy Thinh - SE173018
