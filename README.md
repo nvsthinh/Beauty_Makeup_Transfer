@@ -64,6 +64,7 @@ requirements.txt
 ## UI-UX
 <img src="product.png" alt="Database Design Diagram" width="450" height="416">
 
+## Installation Guide
 
 ## Contributors 
 - Nguyen Van Sy Thinh - SE173018
