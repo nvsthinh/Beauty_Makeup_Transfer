@@ -1,5 +1,5 @@
 # Makeup Style Transfer
-
+<img src="thumbnail.png" alt="Database Design Diagram" width="1100" height="400">
 ## Overview
 
 Makeup Style Transfer is a project that allows users to experiment with different makeup styles using a web application. Users can upload their makeup-free photos and virtually apply various makeup styles to see how they would look. The system uses AI-based filters for makeup transformation and suggests related beauty products based on the chosen makeup style.
