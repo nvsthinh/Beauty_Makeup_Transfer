@@ -65,7 +65,24 @@ requirements.txt
 <img src="product.png" alt="Database Design Diagram" width="450" height="416">
 
 ## Installation Guide
-Please open the installation.txt for detail
+
+1) Install required python packages in pythonRequirements.txt
+
+2) Install postgres, the open pgAdmin, add new server, 
+then in the General tab, write the Name: makeupStyle 
+go to the Connection tab, add the Host name: 10.12.0.188
+                          add the Port: 5432
+                          add the Username: postgres 
+                          add the password: dpl302m
+after create new "postgres" server with "postgres" database,go to the database tab 
+and run all the script in postgresDatabase.txt for create a local postgresDatabase
+
+3) Go inside fe folder, open terminal and type "npm install" for install required package locally
+
+4) Download folder "model" from our gg drive and overwrite the old "model" with the newly 
+download "model" folder
+
+Done
 
 ## How to run the app?
 we assume that you already satisfied the requirement in Installation Guide
