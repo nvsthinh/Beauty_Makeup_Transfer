@@ -78,7 +78,7 @@ we assume that you already satisfied the requirement in Installation Guide
 the device that is running the terminals, then scan QR on the screen of that devices to open the app.
 
 ## Demo Video
-(https://youtu.be/WGOpqEL1s4Y)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=WGOpqEL1s4Y)
 ## Contributors 
 - Nguyen Van Sy Thinh - SE173018
 - Le Quoc Viet - SE173577
