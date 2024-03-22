@@ -77,6 +77,8 @@ we assume that you already satisfied the requirement in Installation Guide
 3. Download Expo app on smartphone, connect the phone to the same wifi as 
 the device that is running the terminals, then scan QR on the screen of that devices to open the app.
 
+## Demo Video
+(https://youtu.be/WGOpqEL1s4Y)
 ## Contributors 
 - Nguyen Van Sy Thinh - SE173018
 - Le Quoc Viet - SE173577
