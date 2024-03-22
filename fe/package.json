@@ -1,0 +1,48 @@
+{
+  "name": "environmental-monitoring-fe",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@expo-google-fonts/exo-2": "^0.2.3",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@types/react": "~18.0.27",
+    "axios": "^1.6.3",
+    "base64-js": "^1.5.1",
+    "deprecated-react-native-prop-types": "^5.0.0",
+    "expo": "^49.0.0",
+    "expo-camera": "~13.4.4",
+    "expo-media-library": "^15.9.1",
+    "expo-module-scripts": "^3.4.0",
+    "expo-navigation-bar": "~2.1.1",
+    "expo-splash-screen": "~0.18.2",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.3",
+    "react-native-animatable": "^1.4.0",
+    "react-native-camera": "^4.2.1",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-element-dropdown": "^2.10.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-permissions": "^4.0.4",
+    "react-native-picker-select": "^9.0.0",
+    "react-native-svg": "13.4.0",
+    "react-native-vector-icons": "^10.0.3",
+    "rn-fetch-blob": "^0.12.0",
+    "typescript": "^4.9.4",
+    "expo-file-system": "~15.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react-native-vector-icons": "^6.4.18"
+  },
+  "private": true
+}
