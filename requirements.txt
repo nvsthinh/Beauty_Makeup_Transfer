@@ -1,0 +1,22 @@
+# Name                    Version                   Build  Channel
+babel                     2.12.1                   pypi_0    pypi
+dlib                      19.24.2                  pypi_0    pypi
+fastapi                   0.109.2                  pypi_0    pypi
+flask                     3.0.0                    pypi_0    pypi
+h5py                      3.10.0                   pypi_0    pypi
+keras                     2.14.0                   pypi_0    pypi
+pillow                    9.4.0           py311hd77b12b_1  
+psycopg2                  2.9.9                    pypi_0    pypi
+tensorboard               2.14.1                   pypi_0    pypi
+tensorboard-data-server   0.7.2                    pypi_0    pypi
+tensorflow                2.14.0                   pypi_0    pypi
+tensorflow-estimator      2.14.0                   pypi_0    pypi
+tensorflow-intel          2.14.0                   pypi_0    pypi
+tensorflow-io-gcs-filesystem 0.31.0                   pypi_0    pypi
+urllib3                   1.26.16         py311haa95532_0  
+uvicorn                   0.27.1                   pypi_0    pypi
+websocket-client          1.6.3                    pypi_0    pypi
+xgboost                   2.0.0                    pypi_0    pypi
+yaml                      0.2.5                he774522_0  
+pyopenssl                 23.2.0          py311haa95532_0  
+pytorch                   2.2.1              py3.11_cpu_0    pytorch

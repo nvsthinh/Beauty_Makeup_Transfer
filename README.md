@@ -15,14 +15,35 @@ Makeup Style Transfer is a project that allows users to experiment with differen
 
 ```plaintext
 Makeup_Style_Transfer
-|- checkpoint
+|- model
+   49_2700_G.pth
+   400_139_G.pth
+   checkpoint
+   model.data-00000-of-00001
+   model.index
+   model.meta
+   shape_predictor_5_face_landmarks.dat
+   shape_predictor_68_face_landmarks.dat
 |- fe
+   |-.expo
+   |-assets
+   |-node_modules
+   |-src
+      |-components
+         LoadProgress.tsx
+      |-screens
+         |-backup
+         DashboardScreen.tsx
+         ResultScreen.tsx
 |- data
    |- images
-   |- util.py
-   |- info.txt
+      |-items
+      |-styles
+   util.py
+   db_info.txt
 model.py
 app.py
+requirements.txt
 ```
 
 ## Pipeline
