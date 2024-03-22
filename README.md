@@ -16,9 +16,9 @@ Makeup Style Transfer is a project that allows users to experiment with differen
 ```plaintext
 Makeup_Style_Transfer
 |- checkpoint
-|- images
-|- front_end
+|- fe
 |- data
+   |- images
    |- util.py
    |- info.txt
 model.py
